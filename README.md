@@ -1,8 +1,6 @@
 # robosys
 2021年度ロボットシステム学の課題2です。
 
-松田　浩幸のリポジトリを改変したものです。
-
 # 動作環境
 Ubuntu20.04
 
@@ -39,21 +37,6 @@ rosrun mypkg count.py
  ```
 rostopic echo /second_up
  ```
-## minute.pyを立ち上げる
-  ```
-chmod +x minute.py
- ```
-  ```
-source ~/.bashrc
- ```
- 実行
- ```
-rosrun mypkg minute.py
- ```
- 実行中の内容を見る
- ```
-rostopic echo /minute
- ```
 ## twice.pyを立ち上げる
   ```
 chmod +x twice.py
@@ -69,14 +52,27 @@ rosrun mypkg twice.py
  ```
 rostopic echo /twice
  ```
+## third.pyを立ち上げる
+  ```
+chmod +x third.py
+ ```
+  ```
+source ~/.bashrc
+ ```
+ 実行
+ ```
+rosrun mypkg third.py
+ ```
+ 実行中の内容を見る
+ ```
+rostopic echo /third
+ ```
 # デモ動画
 
 https://youtu.be/OMmtrcRYW1M
 
 # ライセンス
 Copyright (c) 2022 Ryuich Ueda
-
-Copyright (c) 2022 Hiroyuki Matsuda
 
 Copyright (c) 2022 Douseki Tei
 
