@@ -35,7 +35,7 @@ rosrun mypkg count.py
  ```
  経過秒数のみを見る
  ```
-rostopic echo /second_up
+rostopic echo /count_up
  ```
 ## twice.pyを立ち上げる
   ```
