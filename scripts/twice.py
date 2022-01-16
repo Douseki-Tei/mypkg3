@@ -1,4 +1,4 @@
-#1/usr/bin/env python3
+#!/usr/bin/env python3
 
 #SPDX-License-Identifier:BSD-2.0
 
