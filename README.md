@@ -12,10 +12,6 @@ ROS
 
 Ubuntuを3つ立ち上げておく
 ---
-## branchの変更
- ```
- git branch Douseki
- ```
 
 ## count.pyを立ち上げる
 
