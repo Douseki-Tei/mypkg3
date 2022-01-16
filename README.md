@@ -72,7 +72,7 @@ rostopic echo /third
 https://youtu.be/OMmtrcRYW1M
 
 # ライセンス
-Copyright (c) 2022 Ryuich Ueda
+Copyright (c) 2022 Ryuichi Ueda
 
 Copyright (c) 2022 Douseki Tei
 
