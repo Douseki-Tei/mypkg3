@@ -8,10 +8,10 @@
 import rospy
 from std_msgs.msg import Int32
 
-rospy.Init_node('count')
+rospy.init_node('count')
 pub = rospy.Publisher('count_up', Int32, queue_size=1)
 rate = rospy.Rate(10)
-n = 100
+n = 10
 
 while not rospy.is_shutdown():
      n -= 10
